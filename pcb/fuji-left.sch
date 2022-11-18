@@ -1,0 +1,294 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX2
+U 1 1 62BA2FCC
+P 4900 1700
+F 0 "MX2" H 4933 1923 60  0000 C CNN
+F 1 "MX-NoLED" H 4933 1849 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4275 1675 60  0001 C CNN
+F 3 "" H 4275 1675 60  0001 C CNN
+	1    4900 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX3
+U 1 1 62BA33B3
+P 5300 1700
+F 0 "MX3" H 5333 1923 60  0000 C CNN
+F 1 "MX-NoLED" H 5333 1849 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4675 1675 60  0001 C CNN
+F 3 "" H 4675 1675 60  0001 C CNN
+	1    5300 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX5
+U 1 1 62BA39F4
+P 6100 1700
+F 0 "MX5" H 6133 1923 60  0000 C CNN
+F 1 "MX-NoLED" H 6133 1849 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5475 1675 60  0001 C CNN
+F 3 "" H 5475 1675 60  0001 C CNN
+	1    6100 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1850 4850 1850
+Connection ~ 4850 1850
+Wire Wire Line
+	4850 1850 5250 1850
+Connection ~ 5250 1850
+Text GLabel 5850 1600 1    50   Input ~ 0
+COL1
+Text GLabel 5450 1600 1    50   Input ~ 0
+COL2
+Connection ~ 5650 1850
+Wire Wire Line
+	5250 1850 5650 1850
+Wire Wire Line
+	5650 1850 6050 1850
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX4
+U 1 1 62BA3660
+P 5700 1700
+F 0 "MX4" H 5733 1923 60  0000 C CNN
+F 1 "MX-NoLED" H 5733 1849 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5075 1675 60  0001 C CNN
+F 3 "" H 5075 1675 60  0001 C CNN
+	1    5700 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 5050 1600 1    50   Input ~ 0
+COL3
+Text GLabel 4600 1600 1    50   Input ~ 0
+COL4
+Wire Wire Line
+	6250 1600 6250 1650
+Wire Wire Line
+	5850 1600 5850 1650
+Wire Wire Line
+	5450 1600 5450 1650
+Wire Wire Line
+	5050 1600 5050 1650
+Text GLabel 6250 1600 1    50   Input ~ 0
+COL0
+Wire Wire Line
+	4600 1600 4600 1650
+Wire Wire Line
+	2300 4050 2300 3900
+$Comp
+L TIP120:TIP120 Q1
+U 1 1 62BBA16B
+P 2200 4250
+F 0 "Q1" H 2344 4296 50  0000 L CNN
+F 1 "TIP120" H 2344 4205 50  0000 L CNN
+F 2 "TO220AH" H 2200 4250 50  0001 L BNN
+F 3 "" H 2200 4250 50  0001 L BNN
+	1    2200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 62BA251A
+P 4450 1700
+F 0 "MX1" H 4483 1923 60  0000 C CNN
+F 1 "MX-NoLED" H 4483 1849 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3825 1675 60  0001 C CNN
+F 3 "" H 3825 1675 60  0001 C CNN
+	1    4450 1700
+	1    0    0    -1  
+$EndComp
+Text GLabel 3000 2300 2    50   Input ~ 0
+COL0
+Text GLabel 3000 2200 2    50   Input ~ 0
+COL1
+Text GLabel 3000 2100 2    50   Input ~ 0
+COL2
+Text GLabel 3000 2000 2    50   Input ~ 0
+COL3
+Text GLabel 3000 1900 2    50   Input ~ 0
+COL4
+Text GLabel 1600 2100 0    50   Input ~ 0
+COL9
+Text GLabel 1600 2200 0    50   Input ~ 0
+COL8
+Text GLabel 1600 2300 0    50   Input ~ 0
+COL7
+Text GLabel 1600 2400 0    50   Input ~ 0
+COL6
+Text GLabel 1600 2500 0    50   Input ~ 0
+COL5
+Wire Wire Line
+	1600 1700 1600 1800
+$Comp
+L Device:R R1
+U 1 1 62C30A96
+P 1800 4250
+F 0 "R1" V 1593 4250 50  0000 C CNN
+F 1 "1.0K" V 1684 4250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1730 4250 50  0001 C CNN
+F 3 "~" H 1800 4250 50  0001 C CNN
+	1    1800 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 4250 2100 4250
+Text GLabel 5600 3650 2    50   Input ~ 0
+COL5
+Text GLabel 5600 3750 2    50   Input ~ 0
+COL6
+Text GLabel 5600 3850 2    50   Input ~ 0
+COL7
+Text GLabel 5600 3950 2    50   Input ~ 0
+COL8
+Text GLabel 5600 4050 2    50   Input ~ 0
+COL9
+Text GLabel 1650 4250 0    50   Input ~ 0
+SOL
+Text GLabel 3000 2600 2    50   Input ~ 0
+SOL
+$Comp
+L Connector:6P6C J1
+U 1 1 62BFBA89
+P 5200 3950
+F 0 "J1" H 5257 4517 50  0000 C CNN
+F 1 "6P6C" H 5257 4426 50  0000 C CNN
+F 2 "Connector_RJ:RJ12_Amphenol_54601" V 5200 3975 50  0001 C CNN
+F 3 "~" V 5200 3975 50  0001 C CNN
+	1    5200 3950
+	1    0    0    -1  
+$EndComp
+Text GLabel 1600 2600 0    50   Input ~ 0
+ROW0
+Text GLabel 3000 2400 2    50   Input ~ 0
+ROW0
+$Comp
+L Device:D D1
+U 1 1 62C54781
+P 2300 3750
+F 0 "D1" H 2300 3966 50  0000 C CNN
+F 1 "1N4004" H 2300 3875 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 2300 3750 50  0001 C CNN
+F 3 "~" H 2300 3750 50  0001 C CNN
+	1    2300 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2300 3600 2400 3600
+Wire Wire Line
+	2400 3700 2400 3900
+Wire Wire Line
+	2400 3900 2300 3900
+Connection ~ 2300 3900
+Text GLabel 5600 4150 2    50   Input ~ 0
+ROW0
+NoConn ~ 2250 2200
+$Comp
+L Connector:Conn_01x02_Female J2
+U 1 1 62BDD26F
+P 2600 3600
+F 0 "J2" H 2628 3576 50  0000 L CNN
+F 1 "SOLENOID JST" H 2628 3485 50  0000 L CNN
+F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 2600 3600 50  0001 C CNN
+F 3 "~" H 2600 3600 50  0001 C CNN
+	1    2600 3600
+	1    0    0    -1  
+$EndComp
+Text GLabel 4400 1850 0    50   Input ~ 0
+ROW0
+$Comp
+L corne-classic-cache:kbd_ProMicro U1
+U 1 1 62B9F926
+P 2300 2250
+F 0 "U1" H 2300 3287 60  0000 C CNN
+F 1 "kbd_ProMicro" H 2300 3181 60  0000 C CNN
+F 2 "promicro:ProMicro" H 2400 1200 60  0001 C CNN
+F 3 "" H 2400 1200 60  0000 C CNN
+	1    2300 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 1600 3300 1600
+Wire Wire Line
+	3000 1800 3150 1800
+$Comp
+L power:VCC #PWR0101
+U 1 1 62CF8109
+P 3150 1800
+F 0 "#PWR0101" H 3150 1650 50  0001 C CNN
+F 1 "VCC" H 3167 1973 50  0000 C CNN
+F 2 "" H 3150 1800 50  0001 C CNN
+F 3 "" H 3150 1800 50  0001 C CNN
+	1    3150 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 62CF8EAB
+P 3300 1600
+F 0 "#PWR0102" H 3300 1350 50  0001 C CNN
+F 1 "GND" H 3305 1427 50  0000 C CNN
+F 2 "" H 3300 1600 50  0001 C CNN
+F 3 "" H 3300 1600 50  0001 C CNN
+	1    3300 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 62CF9F86
+P 1350 1800
+F 0 "#PWR0103" H 1350 1550 50  0001 C CNN
+F 1 "GND" H 1355 1627 50  0000 C CNN
+F 2 "" H 1350 1800 50  0001 C CNN
+F 3 "" H 1350 1800 50  0001 C CNN
+	1    1350 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1800 1350 1800
+Connection ~ 1600 1800
+$Comp
+L power:GND #PWR0104
+U 1 1 62CFB5F2
+P 2300 4450
+F 0 "#PWR0104" H 2300 4200 50  0001 C CNN
+F 1 "GND" H 2305 4277 50  0000 C CNN
+F 2 "" H 2300 4450 50  0001 C CNN
+F 3 "" H 2300 4450 50  0001 C CNN
+	1    2300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0105
+U 1 1 62CFC4FD
+P 2300 3600
+F 0 "#PWR0105" H 2300 3450 50  0001 C CNN
+F 1 "VCC" H 2317 3773 50  0000 C CNN
+F 2 "" H 2300 3600 50  0001 C CNN
+F 3 "" H 2300 3600 50  0001 C CNN
+	1    2300 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 3600
+NoConn ~ 3000 1700
+NoConn ~ 3000 1500
+NoConn ~ 3000 2500
+NoConn ~ 1600 2000
+NoConn ~ 1600 1900
+NoConn ~ 1600 1600
+NoConn ~ 1600 1500
+$EndSCHEMATC
